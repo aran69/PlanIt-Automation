@@ -101,8 +101,8 @@ public void logonToPlanIT() {
 		StepDefinitions.driver = new FirefoxDriver();
 		StepDefinitions.driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 		StepDefinitions.driver.get("https://authtest.featureit.co.nz/auth/realms/planit_test/protocol/openid-connect/auth?client_id=planitv2&redirect_uri=https%3A%2F%2Fplanittest.featureit.co.nz%2F%23%2F&state=5334ee20-9cdc-469f-9fd3-4aa7876fb958&nonce=ee01cea6-afa7-46c3-b998-343c64e00cce&response_mode=query&response_type=code&scope=openid");
-		StepDefinitions.driver.findElement(By.id("username")).sendKeys("administrator");
-		StepDefinitions.driver.findElement(By.id("password")).sendKeys("gZv2VhT");
+		StepDefinitions.driver.findElement(By.id("username")).sendKeys("xxxxxxxx");
+		StepDefinitions.driver.findElement(By.id("password")).sendKeys("xxxxxxxx");
 		StepDefinitions.driver.findElement(By.id("kc-login")).click();
     }
 "
